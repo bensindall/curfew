@@ -1,6 +1,6 @@
 # Curfew
 
-Applies increasing damage to all online players once it's past 11 PM real-world time, and kicks anyone who drops to half a heart. Curfew lifts at 7 AM real-world time
+Applies increasing damage to all online players once it's past 10:30pm real-world time, and kicks anyone who drops to half a heart. Curfew lifts at 07:00am real-world time
 
 ## How does it work?
 
