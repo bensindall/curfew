@@ -18,10 +18,10 @@ https://modrinth.com/datapack/get-systime
 
 Get SysTime must be installed **alongside** Curfew (both folders sit side-by-side in your `datapacks` folder) or Curfew's functions will fail with "unknown function" errors.
 
-## Install (on Aternos)
+## Install
 
 1. Download **Get SysTime** from the link above (get the version for 26.2 / 26.2-pre-3, or the newest one listed).
-2. Stop your server, open the Aternos file manager (or FTP), and go to `world/datapacks/` (the `datapacks` folder inside your active world's save folder — not the server root).
+2. Find the `datapacks/` folder inside the world save file.
 3. Drop in both the `getsystime` folder/zip and this `curfew` folder/zip, unzipped, so you have:
    ```
    world/datapacks/getsystime/...
@@ -42,7 +42,7 @@ That's it — Curfew checks the real-world time from then on.
 
 ## Configuring the curfew window
 
-Default is **11 PM – 7 AM** (server's real-world clock, 24h). To change it, run these as an operator, any time:
+Default is **10:30pm – 07:00am** (server's real-world clock, 24h). To change it, run these as an operator, any time:
 
 ```
 /scoreboard players set $start_hour curfew.cfg 23
@@ -52,12 +52,8 @@ Default is **11 PM – 7 AM** (server's real-world clock, 24h). To change it, ru
 /scoreboard players set $end_min curfew.cfg 15
 ```
 
-This uses a 24hr clock. The window can cross midnight (like the default) or not (e.g. `$start_hour 9` / `$end_hour 17` for a daytime curfew) — either works.
-
-## How it decides who to kick
-
-Health is tracked in half-heart points (0–20, since 1 heart = 2 points). Anyone at **1 point or less** — half a heart or a sliver above zero — gets `/kick`ed immediately, before the next Wither tick can finish them off.
+The window can cross midnight (like the default) or not (e.g. `$start_hour 9` / `$end_hour 17` for a daytime curfew) — either works.
 
 ## Uninstalling
 
-Run `/function curfew:uninstall`, then delete both the `curfew` and `getsystime` folders from `world/datapacks/`
+Run `/function curfew:uninstall`, then delete both the `curfew` and `getsystime` folders from `world/datapacks/`. This safely removes the command block (that finds the real world time) too.
