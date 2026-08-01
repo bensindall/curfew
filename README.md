@@ -38,8 +38,6 @@ Get SysTime must be installed **alongside** Curfew (both folders sit side-by-sid
    ```
    This places the command block Get SysTime uses to read the clock. You only need to do this once, ever (unless you regenerate the spawn area).
 
-That's it — Curfew checks the real-world time from then on.
-
 ## Configuring the curfew window
 
 Default is **10:30pm – 07:00am** (server's real-world clock, 24h). To change it, run these as an operator, any time:
