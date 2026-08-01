@@ -4,7 +4,7 @@ Applies increasing damage to all online players once it's past 10:30pm real-worl
 
 ## How does it work?
 
-Past the configured curfew, all players will start taking damage. The longer users stay online past curfew, the faster the damage is applied. If 5 mins past curfew is reached, `Wither II` is applied.
+Past the configured curfew, all players will start taking damage. The longer users stay online past curfew, the faster the damage is applied. If 3 mins past curfew is reached, `Wither II` is applied.
 
 But fear not! The power of friendship can lighten the blow of an early night! Standing within 4 blocks of another player gives `Regeneration III`. Don't stand too close though! You gotta leave room for Jesus mhm mhm 🙂‍↕️
 
