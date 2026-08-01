@@ -1,6 +1,6 @@
 # Half a heart
 damage @s 1
-# Display warning. Change @e to @a for multiplayer
+# Display curfew warning on damage tick. Change @e to @a for multiplayer
 execute as @a at @s unless entity @a[distance=0.1..1.5] run function curfew:warning
 
 # >3 mins gives Wither II
