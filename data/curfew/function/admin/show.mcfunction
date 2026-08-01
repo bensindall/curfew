@@ -1,0 +1,2 @@
+tellraw @s [{text: "", bold:false}, {text: "Current curfew settings:", bold:true}]
+tellraw @s [{score: {name: "$start_hour", objective: "curfew.cfg"}}, ":", {score: {name: "$start_min", objective: "curfew.cfg"}}, " > ", {score: {name: "$end_hour", objective: "curfew.cfg"}}, ":", {score: {name: "$end_min", objective: "curfew.cfg"}}]

@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Curfew - applies damage past a real-world curfew. Clears effects and kicks player on half a heart",
+    "min_format": [107, 0],
+    "max_format": [999, 0]
+  }
+}
