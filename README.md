@@ -8,6 +8,8 @@ Past the configured curfew, all players will start taking damage. The longer use
 
 But fear not! The power of friendship can lighten the blow of an early night! Standing within 4 blocks of another player gives `Regeneration III`. Don't stand too close though! You gotta leave room for Jesus mhm mhm 🙂‍↕️
 
+If a user reaches half a heart, they are automatically kicked from the server. All effects are cleared.
+
 ## Requirements
 
 This pack does **not** read real-world time on its own — Minecraft has no built-in way to do that. It relies on the **Get SysTime** datapack:
